@@ -19,7 +19,13 @@
 
 * Trends
   - Moving more of the application logic away from the server and into the front end.
-  - Think of it as coding the back end in the front end.
+  - What usually gets moved from server to client:
+      * View Rendering
+      * Validations
+      * Routing (Single-Page Apps / SPAs)
+  - Why?
+      * Faster / more responsive user experience
+      * Develop multiple clients with a single shared Server as a RESTful API
   - Some of the more popular JavaScript frameworks doing this are:
       * AngularJS
       * Backbone
@@ -32,6 +38,12 @@
   - Cloud data with Local computation
 
 ### Server Side Rendering vs. Client Side Rendering
+
+Q: What is rendering?
+
+A: Generating a view from a template and a set of data
+
+    HTML Template + JSON data === (render) ===> HTML page
 
 * Server-side rendering: HTML page is generated and `rendered` on the server
 * Client-side rendering: HTML page is served from server as a `template` and fully rendered in the browser
@@ -78,7 +90,7 @@ We *can* use AngularJS with Rails, but it seems a bit overkill:
 
 |        Feature          |          Rails                |              MEAN              |
 |:-----------------------:|:-----------------------------:|:------------------------------:|
-| Database                | usually RDBMS                 | MongoDB                        |
+| Database                | usually RDBMS (SQL)           | MongoDB (NoSQL)                |
 | Server Language         | Ruby                          | JavaScript via NodeJS          |
 | Server Framework        | Rails                         | Express, Hapi, others          |
 | ORM / DB Integration    | Active Record                 | Mongoose                       |
@@ -87,7 +99,8 @@ We *can* use AngularJS with Rails, but it seems a bit overkill:
 | Client Language         | JavaScript                    | JavaScript                     |
 | Client Presentation     | HTML / CSS                    | HTML / CSS                     |
 | Rendering               | Server                        | Client                         |
-| Client Updates          | Favors server rendering       | Favors Partial Updates (AJAX)  |
+| Client Updates          | Favors Server Rendering       | Favors Client Rendering & Partial Updates (AJAX)  |
+| Best Tutorial | Hartl | The MEAN Machine |
 
 
 ## Introducing the MEAN Stack
