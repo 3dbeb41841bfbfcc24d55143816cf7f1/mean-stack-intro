@@ -75,6 +75,10 @@ A software framework, in computer programming, is an abstraction in which common
 ### Information Dive (5 / 10)
 What are advantages of using a javascript framework vs plain jane javascript?
 
+[Pros and Cons of using frameworks](http://1stwebdesigner.com/web-frameworks/)
+
+[Arguments against frameworks](http://stackoverflow.com/questions/1242528/what-are-the-arguments-against-using-a-javascript-framework-for-a-web-site-devel)
+
 ### T&T (5 / 15)
 Now, turn & talk to your neighbor and discuss:
 
@@ -197,5 +201,5 @@ We *can* use AngularJS with Rails, but it seems a bit overkill:
 * Offers 2-way data-binding to simplify the HTML/JS interaction
 
 ## Closing
-
+I know it's a lot of new stuff, but that's also exciting.  So take a deep breath relax.  Lets enjoy learning the MEAN Stack together.
 
