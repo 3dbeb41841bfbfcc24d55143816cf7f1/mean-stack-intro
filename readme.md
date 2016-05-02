@@ -1,6 +1,41 @@
 # Intro to the MEAN Stack
 
-## Background
+![](mean.jpg)
+
+## Learning Objectives
+
+- List three similarities between an MEAN app and a Rails app
+- Server Side Rendering vs. Client Side Rendering
+- Client Side Rendering via AngularJS, etc
+- Motivation to use MEAN
+- Comparison of Rails and MEAN Stack
+- What is MongoDB
+- What is NodeJS
+- What is AngularJS
+
+
+
+
+
+## Framing
+
+The term ME(A)N stack refers to a collection of JavaScript based technologies used to develop web applications. MEAN is an acronym for MongoDB, ExpressJS, AngularJS and Node.js. From client to server to database, MEAN is full stack JavaScrip
+
+
+
+### Information Dive (5 / 10)
+What are the teachnologies in the ME(A)N stack?
+
+### T&T (5 / 15)
+Now, turn & talk to your neighbor and discuss:
+
+1. At a high level, what are the different technologies of the ME(A)N stack used for?
+2. Where do these tehcnologies fall in the MVC pattern?
+
+## Framework
+
+A software framework, in computer programming, is an abstraction in which common code providing generic functionality can be selectively overridden or specialized by user code providing specific functionality. Frameworks are a special case of software libraries in that they are reusable abstractions of code wrapped in a well-defined Application programming interface (API), yet they contain some key distinguishing features that separate them from normal libraries.
+
 
 * Frameworks allow us to be `full-stack` developers.
 * We can:
@@ -37,9 +72,23 @@
   - SaaS and cloud computing
   - Cloud data with Local computation
 
+### Information Dive (5 / 10)
+What are advantages of using a javascript framework vs plain jane javascript?
+
+### T&T (5 / 15)
+Now, turn & talk to your neighbor and discuss:
+
+1. 3 pros of using a javascript framework 
+2. Any cons of using a framework
+
+
+
+
 ### Server Side Rendering vs. Client Side Rendering
 
-Q: What is rendering?
+*Rendering is the action of giving, yielding, or surrendering something
+
+Q: What does it mean to render a view
 
 A: Generating a view from a template and a set of data
 
@@ -71,6 +120,7 @@ We *can* use AngularJS with Rails, but it seems a bit overkill:
 * both provide routing
 
 ## Motivation to use MEAN
+![](meanstack2.jpg)
 
 * JavaScript throughout all layers
   - Browser
@@ -78,7 +128,7 @@ We *can* use AngularJS with Rails, but it seems a bit overkill:
   - Server (NodeJS)
   - Database (MongoDB uses BSON = Binary JSON)
 * Better Support for Client-side Rendering
-  - The Rails Asset Pipeline gets in the way
+  - The Rails Asset Pipeline gets in the way ([More on The Asset Pipline](https://launchschool.com/blog/rails-asset-pipeline-best-practices))
   - Rails MVC seems like overkill: default is that every RESTful endpoint has a View
 * Improved performance and scalability due to *fast* asynchronous I/O
 * MongoDB is easier to use than RDBMS
@@ -86,6 +136,10 @@ We *can* use AngularJS with Rails, but it seems a bit overkill:
 * AngularJS is a rich client-side MVC SPA Framework that makes DOM manipulation easy
 
 ## Comparison of Rails and MEAN Stack
+
+[MEAN VS Rails ](http://vschart.com/compare/express-web-framework/vs/ruby-on-rails)
+
+
 
 
 |        Feature          |          Rails                |              MEAN              |
@@ -129,3 +183,7 @@ We *can* use AngularJS with Rails, but it seems a bit overkill:
 * Works well for SPA applications
 * Makes DOM manipulation via AJAX calls easy
 * Offers 2-way data-binding to simplify the HTML/JS interaction
+
+## Closing
+
+
