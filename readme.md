@@ -5,13 +5,13 @@
 ## Learning Objectives
 
 - List three similarities between an MEAN app and a Rails app
-- Server Side Rendering vs. Client Side Rendering
-- Client Side Rendering via AngularJS, etc
-- Motivation to use MEAN
-- Comparison of Rails and MEAN Stack
-- What is MongoDB
-- What is NodeJS
-- What is AngularJS
+- Understand Server Side Rendering vs. Client Side Rendering
+- Understand Client Side Rendering via AngularJS, etc
+- Identify the motivation to use the ME(A)N
+- Do a Comparison of Rails and ME(A)N Stack
+- Understand what is MongoDB
+- Understand what is NodeJS
+- Uderstand what is AngularJS
 
 
 
@@ -160,13 +160,19 @@ We *can* use AngularJS with Rails, but it seems a bit overkill:
 ## Introducing the MEAN Stack
 
 ### MongoDB
+![](mongodb.png)
+
+> MongoDB is an open source database that uses a document-oriented data model. MongoDB is one of several database types to arise in the mid-2000s under the NoSQL banner. Instead of using tables and rows as in relational databases, MongoDB is built on an architecture of collections and documents.
 
 * A NoSQL database
 * A document database
 * Stores Binary JSON (BSON)
 * Easy to get up and running
 
-### NodeJS
+### NodeJS 
+ ![](node.png)
+
+> Node.js is an open-source, cross-platform runtime environment for developing server-side Web applications. Although Node.js is not a JavaScript framework,[3] many of its basic modules are written in JavaScript, and developers can write new modules in JavaScript. The runtime environment interprets JavaScript using Google's V8 JavaScript engine.
 
 * A JavaScript runtime environment on the server
 * Uses Google's V8 JavaScript engine
@@ -174,10 +180,16 @@ We *can* use AngularJS with Rails, but it seems a bit overkill:
 
 ### ExpressJS
 
+ ![](express.png)
+
+> Express.js is a Node.js web application server framework, designed for building single-page, multi-page, and hybrid web applications.[1] It is the de facto standard server framework for node.js
+
 * Server-side MVC for NodeJS
 * Much more lightweight than Rails
 
-### AngularJS
+### AngularJS ![](angular.png)
+
+> AngularJS (commonly referred to as "Angular" or "Angular.js") is an open-source web application framework mainly maintained by Google and by a community of individuals and corporations to address many of the challenges encountered in developing single-page applications.
 
 * A full-featured client-side MVC Framework
 * Works well for SPA applications
