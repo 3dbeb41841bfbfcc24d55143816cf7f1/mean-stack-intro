@@ -164,7 +164,7 @@ We *can* use AngularJS with Rails, but it seems a bit overkill:
 ## Introducing the MEAN Stack
 
 ### MongoDB
-![](mongoDB.png)
+![](https://github.com/ATL-WDI-Curriculum/mean-stack-intro/blob/master/MongoDB.png)
 
 > MongoDB is an open source database that uses a document-oriented data model. MongoDB is one of several database types to arise in the mid-2000s under the NoSQL banner. Instead of using tables and rows as in relational databases, MongoDB is built on an architecture of collections and documents.
 
